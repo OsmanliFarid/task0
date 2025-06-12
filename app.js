@@ -32,10 +32,3 @@ const users = [
 //funksiya yazırsınız.Adı olsun findUser
 //bu funksiya arqument kimi array alir,ikinci arqument ad alir
 //arqument kimi aldigi arrayin icerisinde bu ad varsa hemin obyekti konsola qaytarsin
-
-const findUser = (user, username) => {
-  console.log(user);
-  const newuser = user.find((item) => item.name.includes(username));
-  console.log(newuser);
-};
-findUser(users, "Əli");
