@@ -1,0 +1,5 @@
+[
+  { id: 0, username: "Admin" },
+  { id: 1, username: "Guest" },
+  { id: 2, username: "SuperAdmin" },
+];
