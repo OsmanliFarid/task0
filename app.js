@@ -1,16 +1,18 @@
+import { error } from "console";
 import fs from "fs";
-let mesaj = "";
-fs.readFile("./task.txt", "utf-8", (err, data) => {
-  if (err) {
-    console.log("xeta bas verdi");
-  } else {
-    mesaj = data.toUpperCase();
 
-    fs.writeFile("./new.txt", mesaj, (err) => {
+fs.readFile("./a.txt", "utf-8", (err, data) => {
+  if (err) {
+    console.log("fayl oxuna bilmedi");
+  } else {
+    let mesaj = JSON.stringify(data);
+    mesaj.toLowerCase;
+
+    fs.writeFile("./new2.txt", mesaj, (err) => {
       if (err) {
-        console.log("xeta bas verdi");
+        console.log("ugursuz emeliyat");
       } else {
-        console.log("ugurlu");
+        console.log("ugurlu emeliyat");
       }
     });
   }
