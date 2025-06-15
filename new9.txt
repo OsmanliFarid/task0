@@ -1,0 +1,1 @@
+"[\r\n  { id: 0, username: \"Admin\" },\r\n  { id: 1, username: \"Guest\" },\r\n  { id: 2, username: \"SuperAdmin\" },\r\n];"
