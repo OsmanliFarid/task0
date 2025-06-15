@@ -8,7 +8,7 @@ fs.readFile("./a.txt", "utf-8", (err, data) => {
     let mesaj = JSON.stringify(data);
     mesaj.toLowerCase;
 
-    fs.writeFile("./new2.txt", mesaj, (err) => {
+    fs.writeFile("./new10.txt", mesaj, (err) => {
       if (err) {
         console.log("ugursuz emeliyat");
       } else {
